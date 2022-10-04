@@ -17,3 +17,4 @@ Here are some ideas to get you started:
 
 
 git config user.name "skelemba" && git config user.email "skelemba39@gmail.com" && git config credential.${remote}.username <skelemba> && git config credential.helper store
+
