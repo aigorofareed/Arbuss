@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /
+
+User-agent: Bingbot
+User-agent: Googlebot
+User-agent: Slurp
+User-agent: Baiduspider
+Crawl-delay: 60
+Disallow: /

