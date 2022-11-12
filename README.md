@@ -18,3 +18,15 @@ http://127.0.0.1:5500/registry_files/index.064fffb8.js.download
 
 sudo chown -R valmar ./assets
 sudo chmod -R 755 ./assets
+
+git config user.name "maskinggoddest"
+git config user.email "maskinggodess@gmail.com"
+git config credential.${remote}.username 'maskinggoddest'
+git config credential.helper store
+
+
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/maskinggodesst/syncdapps.git
+git push -u origin main

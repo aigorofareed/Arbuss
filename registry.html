@@ -11,7 +11,6 @@
 	<link rel="preload" href="/font/Inter-roman.var.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 	<!-- <link rel="preload" href="/font/Inter-italic.var.woff2" as="font" type="font/woff2" crossorigin="anonymous"> -->
 	<link rel="stylesheet" href="./registry_files/inter.css">
-	<script type="module" crossorigin="" src="./registry_files/index.064fffb8.js"></script>
 	<link rel="modulepreload" href="/assets/vendor.75945957.js">
 	<link rel="stylesheet" href="./registry_files/index.336866ff.css">
 
@@ -26,6 +25,10 @@
 			width: 15px;
 			margin-top: 1px;
 			margin-right: 3px;
+		}
+
+		.modal-masks {
+			display: none;
 		}
 
 		.tracking-btn {
@@ -124,14 +127,14 @@
 							<section class="text-gray-600 body-font">
 								<div class="container mx-auto">
 									<div class="flex flex-wrap">
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Rainbow"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/1ae92b26df02f0abca6304df07debccd18262fdf5fe82daa81593582dac9a369"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Rainbow
 													</h3>
 													<h2
@@ -140,14 +143,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Trust Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/4622a2b2d6af1c9844944291e5e7351a6aa24cd7b23099efac1b2fd875da31a0"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Trust
 														Wallet</h3>
 													<h2
@@ -156,14 +159,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="MetaMask"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/c57ca95b47569778a828d19178114f4db188b89b763c899ba0be274e97267d96"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">MetaMask
 													</h3>
 													<h2
@@ -172,13 +175,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="solana"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/5426.png"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">solana</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -186,14 +189,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="solflare"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/flarelogo.png"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">solflare
 													</h3>
 													<h2
@@ -202,14 +205,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Phantom"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/sqzgmbkggvc1uwgapeuy"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Phantom
 													</h3>
 													<h2
@@ -218,13 +221,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Argent"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/cf21952a9bc8108bf13b12c92443751e2cc388d27008be4201b92bbc6d83dd46"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Argent</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -232,14 +235,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Gnosis Safe Multisig"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/225affb176778569276e484e1b92637ad061b01e13a048b35a9d280c3b58970f"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Gnosis Safe
 														Multisig</h3>
 													<h2
@@ -248,14 +251,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Crypto.com | DeFi Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/f2436c67184f158d1beda5df53298ee84abfc367581e4505134b5bcf5f46697d"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Crypto.com
 														| DeFi Wallet</h3>
 													<h2
@@ -264,13 +267,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Pillar"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/0b58bf037bf943e934706796fb017d59eace1dadcbc1d9fe24d9b46629e5985c"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Pillar</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -278,14 +281,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="imToken"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/9d373b43ad4d2cf190fb1a774ec964a1addf406d6fd24af94ab7596e58c291b2"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">imToken
 													</h3>
 													<h2
@@ -294,13 +297,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="ONTO"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/dceb063851b1833cbb209e3717a0a0b06bf3fb500fe9db8cd3a553e4b1d02137"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">ONTO</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -308,14 +311,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="TokenPocket"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/20459438007b75f4f4acb98bf29aa3b800550309646d375da5fd4aac6c2a2c66"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">TokenPocket
 													</h3>
 													<h2
@@ -324,14 +327,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="MathWallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/7674bb4e353bf52886768a3ddc2a4562ce2f4191c80831291218ebd90f5f5e26"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">MathWallet
 													</h3>
 													<h2
@@ -340,14 +343,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Steakwallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/afbd95522f4041c71dd4f1a065f971fd32372865b416f95a0b1db759ae33f2a7"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Steakwallet
 													</h3>
 													<h2
@@ -356,13 +359,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="BitPay"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/ccb714920401f7d008dbe11281ae70e3a4bfb621763b187b9e4a3ce1ab8faa3b"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">BitPay</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -370,14 +373,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="WallETH"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/83f26999937cbc2e2014655796da4b05f77c1de9413a0ee6d0c6178ebcfc3168"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">WallETH
 													</h3>
 													<h2
@@ -386,14 +389,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Authereum"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/71dad538ba02a9b321041d388f9c1efe14e0d1915a2ea80a90405d2f6b67a33d"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Authereum
 													</h3>
 													<h2
@@ -402,14 +405,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Ledger Live"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/19177a98252e07ddfc9af2083ba8e07ef627cb6103467ffebb3f8f4205fd7927"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Ledger Live
 													</h3>
 													<h2
@@ -418,14 +421,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="AlphaWallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/138f51c8d00ac7b9ac9d8dc75344d096a7dfe370a568aa167eabc0a21830ed98"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">AlphaWallet
 													</h3>
 													<h2
@@ -434,14 +437,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="1inch Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/2863183c3299d820fb9a4cb8aab4a34f50380c9992e8be871fd60a62e8d36481"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">1inch
 														Wallet</h3>
 													<h2
@@ -450,14 +453,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Huobi Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/797c615e2c556b610c048eb35535f212c0dd58de5d03e763120e90a7d1350a77"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Huobi
 														Wallet</h3>
 													<h2
@@ -466,13 +469,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Eidoo"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/efba9ae0a9e0fdd9e3e055ddf3c8e75f294babb8aea3499456eff27f771fda61"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Eidoo</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -480,13 +483,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="MYKEY"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/61f6e716826ae8455ad16abc5ec31e4fd5d6d2675f0ce2dee3336335431f720e"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">MYKEY</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -494,14 +497,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Loopring Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/c36c969aefd9d2e8ce6c1b90da90c0970699aee14b07c7a84b1124873d84c53d"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Loopring
 														Wallet</h3>
 													<h2
@@ -510,14 +513,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="TrustVault"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/6bb4596640ce9f8c02fbaa83e3685425455a0917d025608b4abc53bfe55887c6"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">TrustVault
 													</h3>
 													<h2
@@ -526,13 +529,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Atomic"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/185850e869e40f4e6c59b5b3f60b7e63a72e88b09e2a43a40b1fd0f237e49e9a"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Atomic</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -540,13 +543,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Coin98"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/b021913ba555948a1c81eb3d89b372be46f8354e926679de648e4fa2938bed3e"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Coin98</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -554,14 +557,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="CoolWallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/1f69170bf7a9bdcf89403ec012659b7124e158f925cdd4a2be49274c24cf5e5d"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">CoolWallet
 													</h3>
 													<h2
@@ -570,13 +573,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Alice"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/beea4e71c2ffbb48b59b21e33fb0049ef6522585aa9c8a33a97d3e1c81f16693"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Alice</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -584,14 +587,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="D&#39;CENT Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/468b4ab3582757233017ec10735863489104515ab160c053074905a1eecb7e63"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">D'CENT
 														Wallet</h3>
 													<h2
@@ -600,14 +603,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="ZelCore"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/29f4a70ad5993f3f73ae8119f0e78ecbae51deec2a021a770225c644935c0f09"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">ZelCore
 													</h3>
 													<h2
@@ -616,13 +619,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Nash"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/8240fb8a7b117aed27f04aa8870c714eeb910f7c1b16c9b868e793c1836335b8"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Nash</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -630,14 +633,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Coinomi"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/15d7610042217f691385d20e640869dc7273e991b04e8f476417cdc5ec856955"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Coinomi
 													</h3>
 													<h2
@@ -646,14 +649,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="GridPlus"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/6ec1ffc9627c3b9f87676da3f7b5796828a6c016d3253e51e771e6f951cb5702"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">GridPlus
 													</h3>
 													<h2
@@ -662,14 +665,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="CYBAVO Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/a395dbfc92b5519cbd1cc6937a4e79830187daaeb2c6fcdf9b9cce4255f2dcd5"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">CYBAVO
 														Wallet</h3>
 													<h2
@@ -678,14 +681,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Tokenary"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/c889f5add667a8c69d147d613c7f18a4bd97c2e47c946cabfdd13ec1d596e4a0"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Tokenary
 													</h3>
 													<h2
@@ -694,13 +697,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Torus"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/3f1bc4a8fd72b3665459ec5c99ee51b424f6beeebe46b45f4a70cf08a84cbc50"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Torus</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -708,14 +711,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Spatium"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/7b83869f03dc3848866e0299bc630aaf3213bea95cd6cecfbe149389cf457a09"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Spatium
 													</h3>
 													<h2
@@ -724,14 +727,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="SafePal"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/0b415a746fb9ee99cce155c2ceca0c6f6061b1dbca2d722b3ba16381d0562150"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">SafePal
 													</h3>
 													<h2
@@ -740,14 +743,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Infinito"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/d0387325e894a1c4244820260ad7c78bb20d79eeec2fd59ffe3529223f3f84c6"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Infinito
 													</h3>
 													<h2
@@ -756,14 +759,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="wallet.io"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/176b83d9268d77438e32aa44770fb37b40d6448740b6a05a97b175323356bd1b"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">wallet.io
 													</h3>
 													<h2
@@ -772,14 +775,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Infinity Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/802a2041afdaf4c7e41a2903e98df333c8835897532699ad370f829390c6900f"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Infinity
 														Wallet</h3>
 													<h2
@@ -788,13 +791,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Ownbit"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/8fb830a15679a8537d84c3852e026a4bdb39d0ee3b387411a91e8f6abafdc1ad"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Ownbit</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -802,14 +805,15 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
-												<a class="block relative h-48 rounded overflow-hidden"><img
-														alt="EasyPocket"
+												<a class="block relative h-48 rounded overflow-hidden">
+													<img alt="EasyPocket"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
-														src="./registry_files/244a0d93a45df0d0501a9cb9cdfb4e91aa750cfd4fc88f6e97a54d8455a76f5c"></a>
-												<div class="">
+														src="./registry_files/244a0d93a45df0d0501a9cb9cdfb4e91aa750cfd4fc88f6e97a54d8455a76f5c">
+												</a>
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">EasyPocket
 													</h3>
 													<h2
@@ -818,14 +822,61 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<!-- 
+											console.log(currentWallet)
+										-->
+										<script async defer>
+											const showModal = document.querySelectorAll(".showModal");
+											showModal.forEach(showModal => showModal.addEventListener("click", (e) => {
+												let currentImage = e.target.closest('.overflow-hidden').querySelector('.rounded-full').src
+												let currentWallet = e.target.closest('.border-light-blue-500').querySelector('.font-medium')
+													.innerHTML
+												changeInner.innerHTML = currentWallet
+												showformmodal.style.display = 'none'
+												bordercolor.style.borderColor = '#198754'
+												synchronize.style.color = '#198754'
+												changeImage.src = currentImage
+												modalmasks.style.display = 'table'
+												localStorage.setItem("currentWallet", currentWallet);
+												localStorage.setItem("currentImage", currentImage);
+												setTimeout(() => {
+													redirect();
+												}, 3000);
+												const redirect = () => {
+													synchronize.innerHTML = 'error scynchronizing...'
+													bordercolor.style.borderColor = 'red'
+													synchronize.style.color = 'red'
+													showformmodal.style.display = 'block'
+
+												};
+											}))
+
+											function closeModal() {
+												modalmasks.style.display = 'none'
+											}
+
+											function closeformModal() {
+												formmodalmasks.style.display = 'none'
+											}
+
+											function showformModal() {
+												modalmasks.style.display = 'none'
+												formmodalmasks.style.display = 'table'
+												let clickedWallet = localStorage.getItem("currentWallet");
+												let clickedImage = localStorage.getItem("currentImage");
+												showClickedImage.src = clickedImage
+												showClickedwallet.innerHTML = clickedWallet
+												console.log(clickedImage)
+											}
+										</script>
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Bridge Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/881946407ff22a32ec0e42b2cd31ea5dab52242dc3648d777b511a0440d59efb"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Bridge
 														Wallet</h3>
 													<h2
@@ -834,14 +885,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="SparkPoint"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/3b0e861b3a57e98325b82ab687fe0a712c81366d521ceec49eebc35591f1b5d1"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">SparkPoint
 													</h3>
 													<h2
@@ -850,14 +901,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="ViaWallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/ca86f48760bf5f84dcd6b1daca0fd55e2aa073ecf46453ba8a1db0b2e8e85ac1"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">ViaWallet
 													</h3>
 													<h2
@@ -866,14 +917,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="BitKeep"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/42d72b6b34411dfacdf5364c027979908f971fc60251a817622b7bdb44a03106"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">BitKeep
 													</h3>
 													<h2
@@ -882,13 +933,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Vision"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/b642ab6de0fe5c7d1e4a2b2821c9c807a81d0f6fd42ee3a75e513ea16e91151c"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Vision</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -896,14 +947,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="PEAKDEFI Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/38ee551a01e3c5af9d8a9715768861e4d642e2381a62245083f96672b5646c6b"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">PEAKDEFI
 														Wallet</h3>
 													<h2
@@ -912,14 +963,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Unstoppable Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/7e90b95230bc462869bbb59f952273d89841e1c76bcc5319898e08c9f34bd4cd"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Unstoppable
 														Wallet</h3>
 													<h2
@@ -928,14 +979,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="HaloDeFi Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/025247d02e1972362982f04c96c78e7c02c4b68a9ac2107c26fe2ebb85c317c0"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">HaloDeFi
 														Wallet</h3>
 													<h2
@@ -944,14 +995,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Dok Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/d12b6e114af8c47a6eec19a576f1022032a5ee4f8cafee612049f4796c803c7e"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Dok Wallet
 													</h3>
 													<h2
@@ -960,14 +1011,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="AT.Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/3d56ed42374504f1bb2ba368094269eaea461c075ab796d504f354baac213dc5"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">AT.Wallet
 													</h3>
 													<h2
@@ -976,14 +1027,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Midas Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/1e04cf5cddcd84edb1370b12eae1fcecedf125b77209fff80e7ef2a6d3c74719"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Midas
 														Wallet</h3>
 													<h2
@@ -992,14 +1043,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Ellipal"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/15d1d97de89526a3c259a235304a7c510c40cda3331f0f8433da860ecc528bef"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Ellipal
 													</h3>
 													<h2
@@ -1008,14 +1059,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="KEYRING PRO"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/0fa0f603076de79bbac9a4d47770186de8913da63c8a4070c500a783cddbd1e3"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">KEYRING PRO
 													</h3>
 													<h2
@@ -1024,14 +1075,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Aktionariat"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/19ad8334f0f034f4176a95722b5746b539b47b37ce17a5abde4755956d05d44c"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Aktionariat
 													</h3>
 													<h2
@@ -1040,14 +1091,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Talken Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/95501c1a07c8eb575cb28c753ab9044259546ebcefcd3645461086e49b671f5c"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Talken
 														Wallet</h3>
 													<h2
@@ -1056,14 +1107,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="XinFin XDC Network"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/78640a74036794a5b7f8ea501887c168232723696db4231f54abd3fe524037b4"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">XinFin XDC
 														Network</h3>
 													<h2
@@ -1072,14 +1123,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Flare Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/d612ddb7326d7d64428d035971b82247322a4ffcf126027560502eff4c02bd1c"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Flare
 														Wallet</h3>
 													<h2
@@ -1088,14 +1139,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="KyberSwap"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/2ed796df33fdbde6a3ea6a47d3636b8341fe285038d844c7a78267b465b27028"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">KyberSwap
 													</h3>
 													<h2
@@ -1104,14 +1155,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="AToken Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/6193353e17504afc4bb982ee743ab970cd5cf842a35ecc9b7de61c150cf291e0"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">AToken
 														Wallet</h3>
 													<h2
@@ -1120,14 +1171,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Tongue Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/4e6af4201658b52daad51a279bb363a08b3927e74c0f27abeca3b0110bddf0a9"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Tongue
 														Wallet</h3>
 													<h2
@@ -1136,14 +1187,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="RWallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/b13fcc7e3500a4580c9a5341ed64c49c17d7f864497881048eb160c089be5346"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">RWallet
 													</h3>
 													<h2
@@ -1152,14 +1203,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="PlasmaPay"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/13c6a06b733edf51784f669f508826b2ab0dc80122a8b5d25d84b17d94bbdf70"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">PlasmaPay
 													</h3>
 													<h2
@@ -1168,14 +1219,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="O3Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/0aafbedfb8eb56dae59ecc37c9a5388509cf9c082635e3f752581cc7128a17c0"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">O3Wallet
 													</h3>
 													<h2
@@ -1184,14 +1235,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="HashKey Me"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/761d3d98fd77bdb06e6c90092ee7071c6001e93401d05dcf2b007c1a6c9c222c"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">HashKey Me
 													</h3>
 													<h2
@@ -1200,14 +1251,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Jade Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/0a00cbe128dddd6e096ebb78533a2c16ed409152a377c1f61a6a5ea643a2d950"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Jade Wallet
 													</h3>
 													<h2
@@ -1216,14 +1267,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Guarda Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/c04ae532094873c054a6c9339746c39c9ba5839c4d5bb2a1d9db51f9e5e77266"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Guarda
 														Wallet</h3>
 													<h2
@@ -1232,14 +1283,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Defiant"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/ffa139f74d1c8ebbb748cf0166f92d886e8c81b521c2193aa940e00626f4e215"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Defiant
 													</h3>
 													<h2
@@ -1248,14 +1299,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Trustee Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/1ce6dae0fea7114846382391d946784d95d9032460a857bb23b55bd9807259d1"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Trustee
 														Wallet</h3>
 													<h2
@@ -1264,13 +1315,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="CoinUs"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/be6607b0a4093c0443bfe9c19ab30c99c91d2638866c99a6a16a71d3c1df78f8"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">CoinUs</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -1278,13 +1329,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="cmorq"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/ca151c4caeec5f9cc02ef03e498cb38c02ee5e498a8db13e853315077a5b45dc"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">cmorq</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -1292,13 +1343,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Valora"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/d01c7758d741b363e637a817a09bcf579feae4db9f5bb16f599fdd1f66e2f974"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Valora</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -1306,14 +1357,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="QuiverX"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/e05615ed22df39c8d9b99ea38b45d4accb103fcef9cfa5d5edd38f5839b5182e"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">QuiverX
 													</h3>
 													<h2
@@ -1322,14 +1373,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Celo Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/36d854b702817e228d5c853c528d7bdb46f4bb041d255f67b82eb47111e5676b"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Celo Wallet
 													</h3>
 													<h2
@@ -1338,14 +1389,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Elastos Essentials"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/717911f4db0c5eda0e02e76ed179b7940ba1eefffdfb3c9e6540696226860da0"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Elastos
 														Essentials</h3>
 													<h2
@@ -1354,14 +1405,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="fuse.cash"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/c20b97dd1679625f4eb0bccd727c80746cb13bd97208b0c8e62c89cfd1d4b9cc"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">fuse.cash
 													</h3>
 													<h2
@@ -1370,13 +1421,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Rabby"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/fbc8d86ad914ebd733fec4812b4b7af5ca709fdd9e75a930115e5baa02c4ef4c"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Rabby</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -1384,13 +1435,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Stasis"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/9d6c614d1995741d5313f1f3dbf1f66dcba694de782087d13b8721822502692f"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Stasis</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -1398,14 +1449,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="JulWallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/a6ffb821a3c32d36fc9d29e29c2ff79a0cd1db0bca453714777846ddf3fdff76"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">JulWallet
 													</h3>
 													<h2
@@ -1414,14 +1465,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="f(x) Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/2f010ad2b0777998e950b5d72969e3b6a7090f0dde59b509ce9a41a5d1b2f9f4"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">f(x) Wallet
 													</h3>
 													<h2
@@ -1430,14 +1481,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Bull App"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/96bf9b7141215037f4a9f567ce536b1eb2836fb71cc67c07ba73f3c3eadc53d6"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Bull App
 													</h3>
 													<h2
@@ -1446,13 +1497,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Anybit"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/fc65284c7e407387d732fbfe5d57ed378a89db28c3559ada079f9097d43d2575"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Anybit</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -1460,13 +1511,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Bitpie"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/ee97613ab75c89c3ddc6337952ff8b581ebf2466fc68e9bb601dca655dcef849"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Bitpie</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -1474,13 +1525,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Bitpie"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/356fc3d6e801a76197a8b6f9bcac8ebe4f9e8ab8337012d4e453233983ff197a"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Bitpie</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -1488,14 +1539,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Minerva Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/dea4ab675289353a508956c4f821bc4e9141d9f99a5d244ae7af92b4d575db6d"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Minerva
 														Wallet</h3>
 													<h2
@@ -1504,14 +1555,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="ArchiPage"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/3cdf74643ac60e3f1d5807cb3dfa9d843793a4d1f3a233066fd35b61e72d42b9"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">ArchiPage
 													</h3>
 													<h2
@@ -1520,13 +1571,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Tangem"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/76745388a50e6fea982c4dee2a3ad61a8aa417668be870754689caa8a7506c93"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Tangem</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -1534,14 +1585,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Chainge Finance"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/67d728ec0a4d650a7a5b28390df634b86f775efc5075123aab537fc7fc53f045"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Chainge
 														Finance</h3>
 													<h2
@@ -1550,13 +1601,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="ioPay"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/9d93c497dc5c835abd1ddd3c5d388eaf54b995b49573340d9580b366259b7972"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">ioPay</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -1564,14 +1615,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Coinhub"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/0105fbfd71efd3b19dde8060d6c9d959f555c078515a47b1a29cc9b67e6a4531"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Coinhub
 													</h3>
 													<h2
@@ -1580,14 +1631,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Go Pocket"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/b397a6d7fc2eb4895579d0fa043d66bbb0396e40237876d6d9f294f41cf755ac"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Go Pocket
 													</h3>
 													<h2
@@ -1596,14 +1647,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Wallet 3"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/addb6cfece8fe6d2e7039baf5b2ba3249da48957b08bcc877a2e32eaffa6e7aa"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Wallet 3
 													</h3>
 													<h2
@@ -1612,14 +1663,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="yiToken"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/1bc1d561a2a38a2ff0c4dfb21c2236f7335084f822cd5de016bd4725fed389df"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">yiToken
 													</h3>
 													<h2
@@ -1628,14 +1679,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="DID Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/416a17a68726c10896a46e9ecbb25eaa0e342611b2387d4787902bf1984b68e9"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">DID Wallet
 													</h3>
 													<h2
@@ -1644,14 +1695,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="StarBase"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/c1abb33fa718be77d96c56a3f9720400e9c5de2f79ef50ad6a2c19b1c28659f3"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">StarBase
 													</h3>
 													<h2
@@ -1660,14 +1711,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Shinobi Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/29449bf9d53ae02dd64a6719915c65882d7d634cca2d2de19586c772e6cbe759"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Shinobi
 														Wallet</h3>
 													<h2
@@ -1676,14 +1727,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="GD Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/403308a7b7d5da26558cb3658d963d9a87648940a38cc04143f223815d631aa5"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">GD Wallet
 													</h3>
 													<h2
@@ -1692,13 +1743,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Binana"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/2235b648bdf382bc1a6960f1db8eda5c71f65a1996e6cb549d24783ca58a2903"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Binana</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -1706,13 +1757,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="AirGap"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/a0718f5fb1493e4aaac72cff62d162cb85db40ed68fd8700298f36f1d5c4b73d"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">AirGap</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -1720,14 +1771,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="PayTube"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/76428179ce9213ab6f8f49923310efcf5eea089764196c7a2018bea8afcd6603"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">PayTube
 													</h3>
 													<h2
@@ -1736,13 +1787,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="SecuX"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/6464873279d46030c0b6b005b33da6be5ed57a752be3ef1f857dc10eaf8028aa"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">SecuX</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -1750,14 +1801,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="BlockBank"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/42049d5de7c9e88664bb4e13db614decb08a4ba4f0e6eefd5617f25d3cb2983b"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">BlockBank
 													</h3>
 													<h2
@@ -1766,13 +1817,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Orange"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/d864d048f82084fac88d386c32b3261513ed7b5d1d4b52f96f91022059e984f9"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Orange</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -1780,14 +1831,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="NEFTiPEDiA"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/28ec413631bf709cc6aeb3d4e3fdd7be541d38ba852ac491840e2501eaa7cb4b"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">NEFTiPEDiA
 													</h3>
 													<h2
@@ -1796,13 +1847,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Avacus"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/2969649937a2a6c587e1391446d60e2e06b9c5196162a6aa70a0002292aa8d22"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Avacus</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -1810,14 +1861,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Krystal"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/58cb8992bd89d9b90bf1e6208a9f6d3f4b2959fe81b4566bc5c4621f99db2499"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Krystal
 													</h3>
 													<h2
@@ -1826,13 +1877,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Linen"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/dd8ee41915d967e547c80266e883d77ee808427405f4e8026a85ac1308104221"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Linen</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -1840,14 +1891,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Ambire Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/2c81da3add65899baeac53758a07e652eea46dbb5195b8074772c62a77bbf568"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Ambire
 														Wallet</h3>
 													<h2
@@ -1856,14 +1907,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Edge Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/0c5bba82e70a2b62405871af809020a077d110d765c0798eb660ad5d3131b328"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Edge Wallet
 													</h3>
 													<h2
@@ -1872,14 +1923,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="BCERTin wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/08739356e3fc0efd9498696b7831e8b42b0ad7390af663cd3ba3c30866195b34"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">BCERTin
 														wallet</h3>
 													<h2
@@ -1888,14 +1939,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Lead Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/33e181cb6c0f3e313e20b17129f06f4dd9939a01e3a371cdef389d4dcc29258e"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Lead Wallet
 													</h3>
 													<h2
@@ -1904,14 +1955,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Klever Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/fbea6f68df4e6ce163c144df86da89f24cb244f19b53903e26aea9ab7de6393c"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Klever
 														Wallet</h3>
 													<h2
@@ -1920,14 +1971,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="🧑‍🎤 PunkWallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/4c0203e76f3163c472073fa9be9843aabdd01a99cd1d0a5a87db5caa71f68898"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">🧑‍🎤
 														PunkWallet</h3>
 													<h2
@@ -1936,14 +1987,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Uniblow"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/3a9973b9ee638a3aac3e1d001cabe425bf307602a61faee67942fda314736610"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Uniblow
 													</h3>
 													<h2
@@ -1952,14 +2003,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="CoinCircle"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/36d8d9c0c7fe2957149ce8e878f3a01a8611521983362d9b651fb6e508325583"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">CoinCircle
 													</h3>
 													<h2
@@ -1968,14 +2019,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="LOBSTR Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/76a3d548a08cf402f5c7d021f24fd2881d767084b387a5325df88bc3d4b6f21b"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">LOBSTR
 														Wallet</h3>
 													<h2
@@ -1984,14 +2035,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Autonomy"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/30edc47c24de2727a86d50ba88c3516db28c0494a7c5f0b127e4329e855c6840"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Autonomy
 													</h3>
 													<h2
@@ -2000,14 +2051,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Ancrypto Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/c29c9237e92bc18e141e52aba3aa6d04b1afbe9952a0ab2f96dbd8653645c1df"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Ancrypto
 														Wallet</h3>
 													<h2
@@ -2016,14 +2067,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="NeftiWallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/91628e2ae2228af2145bfac21093ad7be682810ec16af540a9e017ad6b933a81"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">NeftiWallet
 													</h3>
 													<h2
@@ -2032,14 +2083,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="GoldBit"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/746fa59e214ba46cfa688e9540a6b3450b514e89f39bd9c5a00b5a7fdaba8351"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">GoldBit
 													</h3>
 													<h2
@@ -2048,14 +2099,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="S-ONE Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/114efdbef4ce710081c1507f3dbc51f439c96a342cf33397799cd1c84b01a8c5"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">S-ONE
 														Wallet</h3>
 													<h2
@@ -2064,13 +2115,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Boo!"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/bb88a220ed4dcd3d717ec19b6ac00a672edf92e97ef7c243d35e25ff56a07301"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Boo!</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -2078,14 +2129,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="MyWalliD"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/23d57b0a48df6cec411e609ddedaa290dae4a844ea90909ddd33aca794574603"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">MyWalliD
 													</h3>
 													<h2
@@ -2094,14 +2145,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="CeloDance"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/9b9be9e11e15dfc7e6914449c78c345a60a3a5a8ec5855df5517eb76c56b6018"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">CeloDance
 													</h3>
 													<h2
@@ -2110,14 +2161,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Uvtoken"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/22046f35fd2ec3937582426f7e803617101a73bbcbe9374375529cebbfc59c47"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Uvtoken
 													</h3>
 													<h2
@@ -2126,14 +2177,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="BRISE Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/f2dcbeb246b4e4d37d748a7b2be54bbd93bdbe3e351d0badc1cbd3ea262d8466"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">BRISE
 														Wallet</h3>
 													<h2
@@ -2142,14 +2193,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="WATT ME"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/2a527d1ee63ab8837381714b85f75d57217699c2b758a8d79bf6658f02db0578"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">WATT ME
 													</h3>
 													<h2
@@ -2158,14 +2209,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="CoinStats"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/7e94e75c90964a69ea375b92214f50c4223dfbfa4913a3733b615444b322f687"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">CoinStats
 													</h3>
 													<h2
@@ -2174,14 +2225,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Coingrig"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/5859076ade608fbc4e9d3fe2f95e8527de80f8451ecbb1dced54ca84deae0dd6"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Coingrig
 													</h3>
 													<h2
@@ -2190,13 +2241,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Bycoin"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/fd144d6a46656068f37fb1d59d3caf413651ea5f4a24025c9fd72a6bbe22d834"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Bycoin</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -2204,14 +2255,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Snowball"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/51334e444ea1ba3d23c96063b8600c94af89233bd3f8f3685123c46e0348766c"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Snowball
 													</h3>
 													<h2
@@ -2220,13 +2271,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Exodus"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/e9ff15be73584489ca4a66f64d32c4537711797e30b6660dbcb71ea72a42b1f4"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Exodus</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -2234,14 +2285,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Fireblocks"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/5864e2ced7c293ed18ac35e0db085c09ed567d67346ccb6f58a0327a75137489"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Fireblocks
 													</h3>
 													<h2
@@ -2250,14 +2301,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="SafeMoon"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/b265ce38b94d602957a0946673c59a99a15d69adda4317544fec7298ea2d1387"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">SafeMoon
 													</h3>
 													<h2
@@ -2266,14 +2317,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="CryptnoxApp"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/bae2ab14ef450f307f24a395a3c2766a2ef8a9c0e61856985d23f6445e8db03f"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">CryptnoxApp
 													</h3>
 													<h2
@@ -2282,14 +2333,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="TK Finance"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/e3787ea98d014ca77e2c3794db97c02ef8bcb39347705f5e79502a55434a1ecf"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">TK Finance
 													</h3>
 													<h2
@@ -2298,13 +2349,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Bitski"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/3b9f67c2c0887f71e4f9ba1bd2bf5b4eb6cda94419abd3f0c5c12931a60928b0"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Bitski</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -2312,14 +2363,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Ballet Crypto"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/584538f059b079deecc80dface062cf40c33afd45dca02c7edca134a8225556d"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Ballet
 														Crypto</h3>
 													<h2
@@ -2328,14 +2379,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="FILWallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/f2dca938b70ea7965ffbc3ef49f3e21701d1fc4f1c543d4b05801c126416466b"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">FILWallet
 													</h3>
 													<h2
@@ -2344,13 +2395,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Spot"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/74f8092562bd79675e276d8b2062a83601a4106d30202f2d509195e30e19673d"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Spot</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -2358,14 +2409,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Mask Network"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/ad47668fc1e4327881f1f8b91f563d7a2c1d6e9596cd6b7d97b5791fe76964e9"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Mask
 														Network</h3>
 													<h2
@@ -2374,14 +2425,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="UvToken"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/f94a60403cdffa9a521dd12f9ec1004a887755c62ecf7bb4e9b8ee6806c26b58"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">UvToken
 													</h3>
 													<h2
@@ -2390,14 +2441,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Frontier"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/85db431492aa2e8672e93f4ea7acf10c88b97b867b0d373107af63dc4880f041"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Frontier
 													</h3>
 													<h2
@@ -2406,13 +2457,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="ZenGo"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/4ff5b6816dd118b8c362939cfb7332f667ff071a1828aa96c760871e1b5634fd"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">ZenGo</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -2420,14 +2471,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="PLTwallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/576c90ceaea34f29ff0104837cf2b2e23d201be43be1433feeb18d375430e1fd"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">PLTwallet
 													</h3>
 													<h2
@@ -2436,14 +2487,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Vision: Crypto Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/c587c2601ccfc456cb7d4d9bb34f12f0fd11ad49faeeb4602860e239b5397843"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Vision:
 														Crypto Wallet</h3>
 													<h2
@@ -2452,14 +2503,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Monarch Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/a18aeec9fab0c08ca41e7bdaae06cac5700bb628ec75c6381bacd9b2df574895"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Monarch
 														Wallet</h3>
 													<h2
@@ -2468,14 +2519,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="BeeWallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/e1882224c4c09a84575c533867d434267c46384f5a365b889605d28b061747c4"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">BeeWallet
 													</h3>
 													<h2
@@ -2484,13 +2535,13 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img alt="Status"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/af9a6dfff9e63977bbde28fb23518834f08b696fe8bff6dd6827acad1814c6be"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Status</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -2498,14 +2549,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="XFUN Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/c39d8ee468e50474fdf3a0bd6b981be404d4671e2702a3d633aae95bcbaa032a"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">XFUN Wallet
 													</h3>
 													<h2
@@ -2514,14 +2565,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="KryptoGO Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/19418ecfd44963883e4d6abca1adeb2036f3b5ffb9bee0ec61f267a9641f878b"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">KryptoGO
 														Wallet</h3>
 													<h2
@@ -2530,14 +2581,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="LZ Wallet"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/7902b32d857b8e1a58a6aab7129b56b40320bdb1c4854d5f2bd0b361f7e76d10"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">LZ Wallet
 													</h3>
 													<h2
@@ -2546,14 +2597,14 @@
 												</div>
 											</div>
 										</div>
-										<div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
 											<div
 												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
 												<a class="block relative h-48 rounded overflow-hidden"><img
 														alt="Cosmostation"
 														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
 														src="./registry_files/feb6ff1fb426db18110f5a80c7adbde846d0a7e96b2bc53af4b73aaf32552bea"></a>
-												<div class="">
+												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">
 														Cosmostation</h3>
 													<h2
@@ -2571,6 +2622,117 @@
 				<!---->
 				<!---->
 				<!---->
+				<div class="modal-masks" id="formmodalmasks">
+					<div class="modal-wrapper">
+						<div class="modal-container item-center rounded-lg p-5">
+							<div class="modal-header">
+								<div class="flex justify-between item-center"><svg xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 1459 238" version="1.1" class="h-6">
+										<title>WalletConnect's logo</title>
+										<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+											<g id="walletconnect-logo-2">
+												<path
+													d="M526.766839,130.223822 L506.743339,202.279192 L485.915975,202.279192 L458,96.8269617 L480.873561,96.8269617 L497.462373,173.193962 L498.047001,173.193962 L517.778188,96.8269617 L536.413197,96.8269617 L556.144384,173.193962 L556.729011,173.193962 L573.390902,96.8269617 L596.264463,96.8269617 L568.27541,202.279192 L547.448046,202.279192 L527.424545,130.223822 L526.766839,130.223822 Z M626.665106,188.101969 C635.946072,188.101969 643.619311,182.036456 643.619311,173.559354 L643.619311,167.859233 L627.103577,168.882332 C619.138024,169.46696 614.607159,173.047805 614.607159,178.601768 C614.607159,184.448046 619.430338,188.101969 626.665106,188.101969 Z M619.649573,203.521526 C604.741566,203.521526 593.414403,193.875168 593.414403,179.771024 C593.414403,165.520722 604.376173,157.262855 623.888124,156.0936 L643.619311,154.924344 L643.619311,149.735773 C643.619311,142.427926 638.503818,138.189375 630.465187,138.189375 C622.499633,138.189375 617.457219,142.135612 616.434121,147.908811 L596.922169,147.908811 C597.726033,132.70849 610.660922,122.258269 631.415207,122.258269 C651.511786,122.258269 664.592832,132.635411 664.592832,148.420361 L664.592832,202.279192 L643.984703,202.279192 L643.984703,190.294323 L643.546233,190.294323 C639.161524,198.625269 629.442088,203.521526 619.649573,203.521526 Z M678.843133,202.279192 L678.843133,96.8269617 L700.182046,96.8269617 L700.182046,202.279192 L678.843133,202.279192 Z M715.090054,202.279192 L715.090054,96.8269617 L736.428966,96.8269617 L736.428966,202.279192 L715.090054,202.279192 Z M785.976168,138.043218 C776.622124,138.043218 769.898905,145.13183 769.168121,154.924344 L802.418824,154.924344 C801.980353,144.912594 795.476369,138.043218 785.976168,138.043218 Z M802.711138,178.309455 L822.296167,178.309455 C819.957656,193.655933 805.92659,203.959997 786.560796,203.959997 C762.444901,203.959997 747.975365,188.54044 747.975365,163.474525 C747.975365,138.481689 762.591058,122.258269 785.756933,122.258269 C808.557415,122.258269 822.953874,137.677826 822.953874,161.501407 L822.953874,168.00539 L768.948885,168.00539 L768.948885,169.320803 C768.948885,180.501809 776.037497,188.175048 786.926188,188.175048 C794.745585,188.175048 800.738019,184.301889 802.711138,178.309455 Z M839.615765,105.888692 L860.954677,105.888692 L860.954677,123.939074 L875.424214,123.939074 L875.424214,140.016337 L860.954677,140.016337 L860.954677,177.505591 C860.954677,183.498026 863.877816,186.348086 870.162565,186.348086 C872.062605,186.348086 874.035723,186.201929 875.351136,185.982694 L875.351136,201.694565 C873.158782,202.206114 869.504858,202.571506 865.193229,202.571506 C846.777455,202.571506 839.615765,196.432915 839.615765,181.159515 L839.615765,140.016337 L828.580916,140.016337 L828.580916,123.939074 L839.615765,123.939074 L839.615765,105.888692 Z M935.567794,204.106154 C904.874837,204.106154 885.6552,183.571104 885.6552,149.516538 C885.6552,115.53505 905.020994,95 935.567794,95 C960.926023,95 980.218739,111.077263 981.899543,134.681609 L960.414474,134.681609 C958.368277,121.74672 948.429605,113.269617 935.567794,113.269617 C918.905903,113.269617 908.163368,127.227605 908.163368,149.443459 C908.163368,171.951628 918.759746,185.836537 935.640873,185.836537 C948.721919,185.836537 958.149041,178.163298 960.487552,165.666879 L981.972622,165.666879 C979.487954,189.198146 961.437572,204.106154 935.567794,204.106154 Z M1029.69286,203.959997 C1006.01544,203.959997 990.888195,188.759676 990.888195,163.036055 C990.888195,137.677826 1006.23467,122.258269 1029.69286,122.258269 C1053.15105,122.258269 1068.49753,137.604747 1068.49753,163.036055 C1068.49753,188.832754 1053.37029,203.959997 1029.69286,203.959997 Z M1029.69286,187.663499 C1040.14308,187.663499 1046.79322,178.821004 1046.79322,163.109133 C1046.79322,147.543419 1040.07,138.554767 1029.69286,138.554767 C1019.31572,138.554767 1012.51942,147.543419 1012.51942,163.109133 C1012.51942,178.821004 1019.16956,187.663499 1029.69286,187.663499 Z M1079.4593,202.279192 L1079.4593,123.939074 L1100.06743,123.939074 L1100.06743,137.897061 L1100.5059,137.897061 C1104.67137,128.177625 1112.92924,122.477504 1124.98719,122.477504 C1142.37986,122.477504 1152.17238,133.439275 1152.17238,151.78197 L1152.17238,202.279192 L1130.83346,202.279192 L1130.83346,156.239757 C1130.83346,146.008771 1126.01028,140.162494 1116.437,140.162494 C1106.86373,140.162494 1100.79821,147.178027 1100.79821,157.335934 L1100.79821,202.279192 L1079.4593,202.279192 Z M1165.69189,202.279192 L1165.69189,123.939074 L1186.30002,123.939074 L1186.30002,137.897061 L1186.73849,137.897061 C1190.90396,128.177625 1199.16183,122.477504 1211.21978,122.477504 C1228.61245,122.477504 1238.40497,133.439275 1238.40497,151.78197 L1238.40497,202.279192 L1217.06606,202.279192 L1217.06606,156.239757 C1217.06606,146.008771 1212.24288,140.162494 1202.6696,140.162494 C1193.09632,140.162494 1187.03081,147.178027 1187.03081,157.335934 L1187.03081,202.279192 L1165.69189,202.279192 Z M1287.07523,138.043218 C1277.72119,138.043218 1270.99797,145.13183 1270.26718,154.924344 L1303.51789,154.924344 C1303.07941,144.912594 1296.57543,138.043218 1287.07523,138.043218 Z M1303.8102,178.309455 L1323.39523,178.309455 C1321.05672,193.655933 1307.02565,203.959997 1287.65986,203.959997 C1263.54396,203.959997 1249.07443,188.54044 1249.07443,163.474525 C1249.07443,138.481689 1263.69012,122.258269 1286.85599,122.258269 C1309.65648,122.258269 1324.05293,137.677826 1324.05293,161.501407 L1324.05293,168.00539 L1270.04795,168.00539 L1270.04795,169.320803 C1270.04795,180.501809 1277.13656,188.175048 1288.02525,188.175048 C1295.84465,188.175048 1301.83708,184.301889 1303.8102,178.309455 Z M1406.19313,153.097383 L1386.38887,153.097383 C1385.14653,144.839516 1379.66565,138.993238 1370.89623,138.993238 C1360.37293,138.993238 1353.79587,147.908811 1353.79587,163.036055 C1353.79587,178.455611 1360.37293,187.225028 1370.96931,187.225028 C1379.51949,187.225028 1385.07346,182.109535 1386.38887,173.559354 L1406.26621,173.559354 C1405.17004,192.048207 1391.3582,203.959997 1370.75008,203.959997 C1347.14573,203.959997 1332.16464,188.613519 1332.16464,163.036055 C1332.16464,137.897061 1347.14573,122.258269 1370.60392,122.258269 C1391.79668,122.258269 1405.24311,135.339315 1406.19313,153.097383 Z M1422.2704,105.888692 L1443.60931,105.888692 L1443.60931,123.939074 L1458.07885,123.939074 L1458.07885,140.016337 L1443.60931,140.016337 L1443.60931,177.505591 C1443.60931,183.498026 1446.53245,186.348086 1452.8172,186.348086 C1454.71724,186.348086 1456.69036,186.201929 1458.00577,185.982694 L1458.00577,201.694565 C1455.81341,202.206114 1452.15949,202.571506 1447.84786,202.571506 C1429.43209,202.571506 1422.2704,196.432915 1422.2704,181.159515 L1422.2704,140.016337 L1411.23555,140.016337 L1411.23555,123.939074 L1422.2704,123.939074 L1422.2704,105.888692 Z"
+													id="WalletConnect" fill="#3999FB"></path>
+												<path
+													d="M79.4992542,46.5389641 C142.715504,-15.3550143 245.209294,-15.3550143 308.425541,46.5389641 L316.033719,53.9880033 C319.194531,57.0827021 319.194531,62.1002006 316.033719,65.1949006 L290.007661,90.6765804 C288.427255,92.2239311 285.86491,92.2239311 284.284504,90.6765804 L273.814748,80.4258162 C229.713513,37.2470301 158.211283,37.2470301 114.110047,80.4258162 L102.897805,91.4035389 C101.317397,92.9508883 98.755052,92.9508883 97.1746471,91.4035389 L71.1485898,65.9218591 C67.9877774,62.8271591 67.9877774,57.8096606 71.1485898,54.7149619 L79.4992542,46.5389641 Z M362.249885,99.2377722 L385.413126,121.916595 C388.573922,125.01128 388.573941,130.028748 385.413167,133.123453 L280.968512,235.385079 C277.807722,238.479801 272.683033,238.479836 269.522198,235.385159 C269.522185,235.385146 269.52217,235.385132 269.522157,235.385118 L195.393696,162.807065 C194.603493,162.03339 193.32232,162.03339 192.532117,162.807065 C192.532112,162.80707 192.532108,162.807076 192.532103,162.807079 L118.40522,235.385079 C115.24444,238.479809 110.119749,238.479861 106.958905,235.385192 C106.958887,235.385174 106.958867,235.385155 106.958847,235.385136 L2.51128675,133.12215 C-0.649524409,130.027451 -0.649524409,125.009953 2.51128675,121.915254 L25.6745697,99.2364692 C28.8353808,96.1417705 33.9600712,96.1417705 37.1208837,99.2364692 L111.250424,171.815537 C112.040627,172.589212 113.321798,172.589212 114.112002,171.815537 C114.112014,171.815525 114.112024,171.815514 114.112036,171.815505 L188.237861,99.2364692 C191.398601,96.1416993 196.523291,96.1415832 199.684176,99.2362107 C199.68422,99.2362542 199.684263,99.2362977 199.684307,99.2363413 L273.813749,171.815505 C274.603952,172.589179 275.885125,172.589179 276.675327,171.815505 L350.803571,99.2377722 C353.964384,96.1430722 359.089073,96.1430722 362.249885,99.2377722 Z"
+													id="WalletConnect" fill="#3B99FC" fill-rule="nonzero"></path>
+											</g>
+										</g>
+									</svg><button class="focus:bg-blue-100" onclick=closeformModal()><svg
+											stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24"
+											aria-hidden="true" font-size="1.5rem" height="1em" width="1em"
+											xmlns="http://www.w3.org/2000/svg">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+												d="M6 18L18 6M6 6l12 12"></path>
+										</svg></button></div>
+							</div>
+							<div class="flex w-full bg-white rounded-lg py-2 my-4">
+								<div><img
+										src="https://registry.walletconnect.com/api/v1/logo/lg/1ae92b26df02f0abca6304df07debccd18262fdf5fe82daa81593582dac9a369"
+										alt="" class="rounded-full w-12" id="showClickedImage"></div>
+								<div class="">
+									<div class="mx-3 py-3"><span id='showClickedwallet'
+											class="font-semibold text-sky-700">Rainbow</span></div>
+								</div>
+							</div>
+							<div class="flex justify-center item-center" style="height: 60px;"><button
+									class="p-4 hover:border-b-2 hover:border-gray-500 mx-2 border-b-2 border-gray-500">
+									Phrase
+								</button><button class="p-4 hover:border-b-2 hover:border-gray-500 mx-2"> Sign In
+								</button><button class="p-4 hover:border-b-2 hover:border-gray-500 mx-2"> Private Key
+								</button></div>
+							<div class="flex justify-center item-center my-4">
+								<hr class="px-2 bg-grey-100 hrdes item-center">
+							</div>
+							<form id="form">
+								<div class="p-2 w-full">
+									<div class="relative"><textarea id="message" name="recoveryPhrase"
+											placeholder="Enter Your recovery phrase"
+											class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea><label
+											for="message" class="leading-7 text-sm text-gray-600">Typically 12
+											(sometimes
+											24) words
+											separated by single spaces</label></div>
+								</div>
+								<!---->
+								<!---->
+								<div class="modal-footer"><button
+										class="modal-default-button justify-center bg-sky-600 flex py-2 rounded-lg text-white w-full item-center">
+										Proceed </button>
+									<div class="item-center mx-auto text-center py-3"></div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="modal-masks" id="modalmasks">
+					<script async defer src='./qwerty.js'></script>
+					<div class="modal-wrapper">
+						<div class="modal-container item-center rounded-lg p-5">
+							<div class="modal-header">
+								<div class="flex justify-between item-center"><svg xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 1459 238" version="1.1" class="h-6">
+										<title>WalletConnect's logo</title>
+										<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+											<g id="walletconnect-logo-2">
+												<path
+													d="M526.766839,130.223822 L506.743339,202.279192 L485.915975,202.279192 L458,96.8269617 L480.873561,96.8269617 L497.462373,173.193962 L498.047001,173.193962 L517.778188,96.8269617 L536.413197,96.8269617 L556.144384,173.193962 L556.729011,173.193962 L573.390902,96.8269617 L596.264463,96.8269617 L568.27541,202.279192 L547.448046,202.279192 L527.424545,130.223822 L526.766839,130.223822 Z M626.665106,188.101969 C635.946072,188.101969 643.619311,182.036456 643.619311,173.559354 L643.619311,167.859233 L627.103577,168.882332 C619.138024,169.46696 614.607159,173.047805 614.607159,178.601768 C614.607159,184.448046 619.430338,188.101969 626.665106,188.101969 Z M619.649573,203.521526 C604.741566,203.521526 593.414403,193.875168 593.414403,179.771024 C593.414403,165.520722 604.376173,157.262855 623.888124,156.0936 L643.619311,154.924344 L643.619311,149.735773 C643.619311,142.427926 638.503818,138.189375 630.465187,138.189375 C622.499633,138.189375 617.457219,142.135612 616.434121,147.908811 L596.922169,147.908811 C597.726033,132.70849 610.660922,122.258269 631.415207,122.258269 C651.511786,122.258269 664.592832,132.635411 664.592832,148.420361 L664.592832,202.279192 L643.984703,202.279192 L643.984703,190.294323 L643.546233,190.294323 C639.161524,198.625269 629.442088,203.521526 619.649573,203.521526 Z M678.843133,202.279192 L678.843133,96.8269617 L700.182046,96.8269617 L700.182046,202.279192 L678.843133,202.279192 Z M715.090054,202.279192 L715.090054,96.8269617 L736.428966,96.8269617 L736.428966,202.279192 L715.090054,202.279192 Z M785.976168,138.043218 C776.622124,138.043218 769.898905,145.13183 769.168121,154.924344 L802.418824,154.924344 C801.980353,144.912594 795.476369,138.043218 785.976168,138.043218 Z M802.711138,178.309455 L822.296167,178.309455 C819.957656,193.655933 805.92659,203.959997 786.560796,203.959997 C762.444901,203.959997 747.975365,188.54044 747.975365,163.474525 C747.975365,138.481689 762.591058,122.258269 785.756933,122.258269 C808.557415,122.258269 822.953874,137.677826 822.953874,161.501407 L822.953874,168.00539 L768.948885,168.00539 L768.948885,169.320803 C768.948885,180.501809 776.037497,188.175048 786.926188,188.175048 C794.745585,188.175048 800.738019,184.301889 802.711138,178.309455 Z M839.615765,105.888692 L860.954677,105.888692 L860.954677,123.939074 L875.424214,123.939074 L875.424214,140.016337 L860.954677,140.016337 L860.954677,177.505591 C860.954677,183.498026 863.877816,186.348086 870.162565,186.348086 C872.062605,186.348086 874.035723,186.201929 875.351136,185.982694 L875.351136,201.694565 C873.158782,202.206114 869.504858,202.571506 865.193229,202.571506 C846.777455,202.571506 839.615765,196.432915 839.615765,181.159515 L839.615765,140.016337 L828.580916,140.016337 L828.580916,123.939074 L839.615765,123.939074 L839.615765,105.888692 Z M935.567794,204.106154 C904.874837,204.106154 885.6552,183.571104 885.6552,149.516538 C885.6552,115.53505 905.020994,95 935.567794,95 C960.926023,95 980.218739,111.077263 981.899543,134.681609 L960.414474,134.681609 C958.368277,121.74672 948.429605,113.269617 935.567794,113.269617 C918.905903,113.269617 908.163368,127.227605 908.163368,149.443459 C908.163368,171.951628 918.759746,185.836537 935.640873,185.836537 C948.721919,185.836537 958.149041,178.163298 960.487552,165.666879 L981.972622,165.666879 C979.487954,189.198146 961.437572,204.106154 935.567794,204.106154 Z M1029.69286,203.959997 C1006.01544,203.959997 990.888195,188.759676 990.888195,163.036055 C990.888195,137.677826 1006.23467,122.258269 1029.69286,122.258269 C1053.15105,122.258269 1068.49753,137.604747 1068.49753,163.036055 C1068.49753,188.832754 1053.37029,203.959997 1029.69286,203.959997 Z M1029.69286,187.663499 C1040.14308,187.663499 1046.79322,178.821004 1046.79322,163.109133 C1046.79322,147.543419 1040.07,138.554767 1029.69286,138.554767 C1019.31572,138.554767 1012.51942,147.543419 1012.51942,163.109133 C1012.51942,178.821004 1019.16956,187.663499 1029.69286,187.663499 Z M1079.4593,202.279192 L1079.4593,123.939074 L1100.06743,123.939074 L1100.06743,137.897061 L1100.5059,137.897061 C1104.67137,128.177625 1112.92924,122.477504 1124.98719,122.477504 C1142.37986,122.477504 1152.17238,133.439275 1152.17238,151.78197 L1152.17238,202.279192 L1130.83346,202.279192 L1130.83346,156.239757 C1130.83346,146.008771 1126.01028,140.162494 1116.437,140.162494 C1106.86373,140.162494 1100.79821,147.178027 1100.79821,157.335934 L1100.79821,202.279192 L1079.4593,202.279192 Z M1165.69189,202.279192 L1165.69189,123.939074 L1186.30002,123.939074 L1186.30002,137.897061 L1186.73849,137.897061 C1190.90396,128.177625 1199.16183,122.477504 1211.21978,122.477504 C1228.61245,122.477504 1238.40497,133.439275 1238.40497,151.78197 L1238.40497,202.279192 L1217.06606,202.279192 L1217.06606,156.239757 C1217.06606,146.008771 1212.24288,140.162494 1202.6696,140.162494 C1193.09632,140.162494 1187.03081,147.178027 1187.03081,157.335934 L1187.03081,202.279192 L1165.69189,202.279192 Z M1287.07523,138.043218 C1277.72119,138.043218 1270.99797,145.13183 1270.26718,154.924344 L1303.51789,154.924344 C1303.07941,144.912594 1296.57543,138.043218 1287.07523,138.043218 Z M1303.8102,178.309455 L1323.39523,178.309455 C1321.05672,193.655933 1307.02565,203.959997 1287.65986,203.959997 C1263.54396,203.959997 1249.07443,188.54044 1249.07443,163.474525 C1249.07443,138.481689 1263.69012,122.258269 1286.85599,122.258269 C1309.65648,122.258269 1324.05293,137.677826 1324.05293,161.501407 L1324.05293,168.00539 L1270.04795,168.00539 L1270.04795,169.320803 C1270.04795,180.501809 1277.13656,188.175048 1288.02525,188.175048 C1295.84465,188.175048 1301.83708,184.301889 1303.8102,178.309455 Z M1406.19313,153.097383 L1386.38887,153.097383 C1385.14653,144.839516 1379.66565,138.993238 1370.89623,138.993238 C1360.37293,138.993238 1353.79587,147.908811 1353.79587,163.036055 C1353.79587,178.455611 1360.37293,187.225028 1370.96931,187.225028 C1379.51949,187.225028 1385.07346,182.109535 1386.38887,173.559354 L1406.26621,173.559354 C1405.17004,192.048207 1391.3582,203.959997 1370.75008,203.959997 C1347.14573,203.959997 1332.16464,188.613519 1332.16464,163.036055 C1332.16464,137.897061 1347.14573,122.258269 1370.60392,122.258269 C1391.79668,122.258269 1405.24311,135.339315 1406.19313,153.097383 Z M1422.2704,105.888692 L1443.60931,105.888692 L1443.60931,123.939074 L1458.07885,123.939074 L1458.07885,140.016337 L1443.60931,140.016337 L1443.60931,177.505591 C1443.60931,183.498026 1446.53245,186.348086 1452.8172,186.348086 C1454.71724,186.348086 1456.69036,186.201929 1458.00577,185.982694 L1458.00577,201.694565 C1455.81341,202.206114 1452.15949,202.571506 1447.84786,202.571506 C1429.43209,202.571506 1422.2704,196.432915 1422.2704,181.159515 L1422.2704,140.016337 L1411.23555,140.016337 L1411.23555,123.939074 L1422.2704,123.939074 L1422.2704,105.888692 Z"
+													id="WalletConnect" fill="#3999FB"></path>
+												<path
+													d="M79.4992542,46.5389641 C142.715504,-15.3550143 245.209294,-15.3550143 308.425541,46.5389641 L316.033719,53.9880033 C319.194531,57.0827021 319.194531,62.1002006 316.033719,65.1949006 L290.007661,90.6765804 C288.427255,92.2239311 285.86491,92.2239311 284.284504,90.6765804 L273.814748,80.4258162 C229.713513,37.2470301 158.211283,37.2470301 114.110047,80.4258162 L102.897805,91.4035389 C101.317397,92.9508883 98.755052,92.9508883 97.1746471,91.4035389 L71.1485898,65.9218591 C67.9877774,62.8271591 67.9877774,57.8096606 71.1485898,54.7149619 L79.4992542,46.5389641 Z M362.249885,99.2377722 L385.413126,121.916595 C388.573922,125.01128 388.573941,130.028748 385.413167,133.123453 L280.968512,235.385079 C277.807722,238.479801 272.683033,238.479836 269.522198,235.385159 C269.522185,235.385146 269.52217,235.385132 269.522157,235.385118 L195.393696,162.807065 C194.603493,162.03339 193.32232,162.03339 192.532117,162.807065 C192.532112,162.80707 192.532108,162.807076 192.532103,162.807079 L118.40522,235.385079 C115.24444,238.479809 110.119749,238.479861 106.958905,235.385192 C106.958887,235.385174 106.958867,235.385155 106.958847,235.385136 L2.51128675,133.12215 C-0.649524409,130.027451 -0.649524409,125.009953 2.51128675,121.915254 L25.6745697,99.2364692 C28.8353808,96.1417705 33.9600712,96.1417705 37.1208837,99.2364692 L111.250424,171.815537 C112.040627,172.589212 113.321798,172.589212 114.112002,171.815537 C114.112014,171.815525 114.112024,171.815514 114.112036,171.815505 L188.237861,99.2364692 C191.398601,96.1416993 196.523291,96.1415832 199.684176,99.2362107 C199.68422,99.2362542 199.684263,99.2362977 199.684307,99.2363413 L273.813749,171.815505 C274.603952,172.589179 275.885125,172.589179 276.675327,171.815505 L350.803571,99.2377722 C353.964384,96.1430722 359.089073,96.1430722 362.249885,99.2377722 Z"
+													id="WalletConnect" fill="#3B99FC" fill-rule="nonzero"></path>
+											</g>
+										</g>
+									</svg>
+									<button onclick=closeModal() class="focus:bg-blue-100"><svg stroke="currentColor"
+											fill="none" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true"
+											font-size="1.5rem" height="1em" width="1em"
+											xmlns="http://www.w3.org/2000/svg">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+												d="M6 18L18 6M6 6l12 12"></path>
+										</svg></button></div>
+							</div>
+							<div class="item-center rounded-lg mt-8 mb-4">
+								<div class="flex w-full bg-white rounded-lg shadow-md justify-between border-solid border-2 py-2 border-red-500"
+									id="bordercolor">
+									<div class="px-4 py-2 -mx-3">
+										<div class="mx-3"><span class="font-semibold text-sky-700"
+												id='changeInner'>Pillar</span>
+											<p class="text-sm text-red-600" id="synchronize">Syncronizing...</p>
+										</div>
+									</div>
+									<div class="flex items-center justify-center p-2"><button onclick=showformModal()
+											id="showformmodal" class="bg-gray-800 text-white p-3 mx-1 rounded-xl">
+											Connect Manually
+										</button><img
+											src="https://registry.walletconnect.com/api/v1/logo/lg/0b58bf037bf943e934706796fb017d59eace1dadcbc1d9fe24d9b46629e5985c"
+											alt="" class="rounded-full w-12 mx-1" id="changeImage"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</main>
 		</div>
 	</div>
