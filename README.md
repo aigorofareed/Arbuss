@@ -24,7 +24,6 @@ git config user.email "maskinggodess@gmail.com"
 git config credential.${remote}.username 'maskinggoddest'
 git config credential.helper store
 
-
 git add .
 git commit -m "first commit"
 git branch -M main
