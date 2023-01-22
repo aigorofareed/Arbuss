@@ -38,7 +38,7 @@ function o(e) {
       countdownBackdrop.style.display = 'flex'
       countdownBackdrop.style.justifyContent = 'center'
       countdownBackdrop.style.alignItems = 'center'
-      let secs = 14
+      let secs = 5
       setInterval(function () {
         countDown.innerHTML = secs--;
         if (secs === -1) {
