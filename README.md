@@ -27,8 +27,8 @@ git config credential.helper store
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add fareed https://github.com/aigorofareed/portalregistry.git
-git push -u fareed main
+git remote add arbus https://github.com/aigorofareed/Arbuss.git
+git push -u arbus main
 
 https://github.com/maskinggodesst/syncdapps.git
 git remote add twalee https://github.com/twale0909/banteen.git
