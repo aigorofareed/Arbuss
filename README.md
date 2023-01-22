@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # fixsyncdapps
 
 fixsyncsdapps
@@ -37,4 +38,10 @@ git push -u twalee main
 git remote add joe https://github.com/twale0909/joe.git
 git push -u joe main
 
+=======
+readme
+git config user.name 'aigorofareed' && git config user.email aigorolanre0@gmail.com && git config credential.${remote}.username aigorofareed && git config credential.helper store
+
+git add . && git commit -m "first commit" && git branch -M main && git remote add fareed  https://github.com/aigorofareed/portalregistry.git && git push -u fareed main
+>>>>>>> 996e5e3e399a146cb21181109eac58345215c8de
 
